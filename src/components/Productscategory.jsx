@@ -53,7 +53,7 @@ const Productscategory = () => {
     <div>
         <h1 className='text-center text-2xl font-bold pt-6'>Category</h1>
         <hr class=" my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <div className='flex flex-wrap gap-11 ml-4'>
+    <div className='flex flex-wrap gap-11 m-4'>
         {data
         .filter((value) => value.id === 1 || value.id === 2 || value.id === 3 || value.id === 4 || value.id === 5)
         .map((value) =>(
@@ -69,7 +69,7 @@ const Productscategory = () => {
               <p className="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400">
                 {value.description}
               </p>
-              <div className='flex place-content-around mt-6'>
+              <div className='flex place-content-around mt-6 gap-2'>
                 <div>
               <a href="#" className="inline-flex items-center px-3 py-2 text-sm md:text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 Read more

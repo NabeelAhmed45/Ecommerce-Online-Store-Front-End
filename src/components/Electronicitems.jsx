@@ -40,7 +40,7 @@ const Electronicitems = ({data, loading, error}) => {
     <div className=" bg-cover bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1470309864661-68328b2cd0a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2xvdGhpbmd8ZW58MHx8MHx8fDA%3D')]">
         <h1 className='text-center text-2xl font-bold pt-6'>Electronics Items</h1>
         <hr class=" my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <div className='flex flex-wrap gap-11 ml-4'>
+    <div className='flex flex-wrap gap-11 m-4'>
         {data
         .filter((value) => value.id === 19 || value.id === 20 || value.id === 21 || value.id === 22 || value.id === 23 || value.id === 25)
         .map((value) =>(
@@ -56,7 +56,7 @@ const Electronicitems = ({data, loading, error}) => {
               <p className="mb-3 text-sm md:text-base font-normal text-gray-700 dark:text-gray-400">
                 {value.description}
               </p>
-              <div className='flex place-content-around mt-6'>
+              <div className='flex place-content-around mt-6 gap-2'>
                 <div>
               <a href="#" className="inline-flex items-center px-3 py-2 text-sm md:text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 Read more
