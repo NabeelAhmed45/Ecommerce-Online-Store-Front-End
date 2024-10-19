@@ -50,7 +50,7 @@ const Productscategory = () => {
         return <h1>Something went wrong please refresh it</h1>
     }
   return (
-    <div className="">
+    <div>
         <h1 className='text-center text-2xl font-bold pt-6'>Category</h1>
         <hr class=" my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div className='flex flex-wrap gap-11 ml-4'>

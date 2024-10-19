@@ -18,10 +18,10 @@ const Home = () => {
     </div>
 
     <div className="grid grid-cols-2 gap-4 w-full md:w-80 flex-shrink-0">
-      <img src='../../img/artificial-photography-vB5qtt8X4NA-unsplash.jpg' alt="Shirts" className="w-full h-auto rounded-lg" />
-      <img src='../../img/josh-calabrese-mZf9BZxyKZE-unsplash.jpg' alt="Electronics" className="w-full h-auto rounded-lg" />
-      <img src='../../img/domino-studio-164_6wVEHfI-unsplash.jpg' alt="Shoes" className="w-full h-auto rounded-lg" />
-      <img src='../../img/lautaro-andreani-6FaY0OJmYG4-unsplash.jpg' alt="Caps" className="w-full h-auto rounded-lg" />
+      <img src='https://images.unsplash.com/photo-1470309864661-68328b2cd0a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2xvdGhpbmd8ZW58MHx8MHx8fDA%3D' alt="Shirts" className="w-full h-auto rounded-lg" />
+      <img src="https://images.unsplash.com/photo-1493200754321-b1d3cbc969a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGVsZWN0cm9uaWN8ZW58MHx8MHx8fDA%3D" alt="Electronics" className="w-full h-auto rounded-lg" />
+      <img src='https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D' alt="Shoes" className="w-full h-auto rounded-lg" />
+      <img src='https://images.unsplash.com/photo-1483103068651-8ce44652c331?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FwfGVufDB8fDB8fHww' alt="Caps" className="w-full h-auto rounded-lg" />
     </div>
 </div>
     <Productscategory />

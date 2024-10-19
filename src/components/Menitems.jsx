@@ -37,7 +37,7 @@ const Menitems = ({data, loading, error}) => {
         return <h1>Something went wrong please refresh it</h1>
     }
   return (
-    <div className=" bg-cover bg-center bg-no-repeat bg-[url('../../img/artificial-photography-vB5qtt8X4NA-unsplash.jpg')]">
+    <div className=" bg-cover bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1470309864661-68328b2cd0a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2xvdGhpbmd8ZW58MHx8MHx8fDA%3D')]">
         <h1 className='text-center text-2xl font-bold pt-6'>Men Section</h1>
         <hr class=" my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div className='flex flex-wrap gap-11 m-4 '>
